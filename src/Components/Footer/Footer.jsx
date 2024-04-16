@@ -5,7 +5,7 @@ import { FaLocationArrow, FaPhoneAlt } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 const Footer = () => {
     return (
-        <div className='grid grid-cols-2 mt-14 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 mt-14 '>
             <div className='bg-black flex flex-col justify-center items-center text-center p-12'>
             <Link to='/' className="btn btn-ghost text-3xl font-bold text-white"><span className='text-yellow-300'>My</span>Property</Link>
             <p className='text-white max-w-[300px]'>Discover your dream home today. Explore listings, find your perfect space, and make your real estate dreams a reality</p>
@@ -16,10 +16,10 @@ const Footer = () => {
             <CiInstagram className='rounded-full bg-slate-600'></CiInstagram>
             </div>
             </div>
-            <div className='bg-blue-950 p-12 grid grid-cols-2'>
+            <div className='bg-blue-950 p-12 grid grid-cols-1 md:grid-cols-2'>
             <div className='col-span-1'>
-            <h2 className='text-white ml-4 mb-3 font-semibold text-2xl'>Get in touch</h2>
-               <div className='flex justify-start items-center '>
+            <h2 className='text-white md:text-left text-center md:ml-4 mb-3 font-semibold text-2xl'>Get in touch</h2>
+               <div className='flex justify-center md:justify-start items-center '>
                <CiLocationOn className='text-white text-2xl' />
                <span className='text-white ml-2'>3/2, leef street,Port city, Singapore</span>
                </div>

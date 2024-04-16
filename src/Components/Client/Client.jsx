@@ -12,7 +12,7 @@ const Client = () => {
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={'3'}
+        slidesPerView={window.innerWidth > 768 ? 3 : 1}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,

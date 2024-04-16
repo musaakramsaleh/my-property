@@ -1,195 +1,203 @@
+
 [
-    {
-      "image": "https://i.ibb.co/R0mVz16/download-1.jpg",
-      "estate_title": "Cozy Single-Family Home",
-      "id": "RES001",
-      "segment_name": "Residential",
-      "description": "This charming single-family home offers comfortable living spaces and modern amenities. Perfect for a growing family. Situated in a suburban neighborhood, this home features a spacious backyard, ideal for outdoor gatherings and play. With three bedrooms, two bathrooms, and an open-concept living area, this residence provides ample space for relaxation and entertainment. Don't miss out on the opportunity to make this your dream home!",
-      "price": 350000,
-      "status": "sale",
-      "area": "1800 sq ft",
-      "location": "Suburban neighborhood, Anytown, USA",
-      "facilities": ["Living room", "Kitchen", "Backyard"],
-      "outdoor_details": {
-        "backyard": "Spacious backyard for outdoor gatherings and play",
-        "patio": null,
-        "garden": null,
-        "deck": null
-      },
-      "interior_details": {
-        "fireplace": null,
-        "hardwood_flooring": null,
-        "granite_countertops": null,
-        "vaulted_ceilings": null
-      }
-    },
-    {
-      "image": "https://i.ibb.co/PgVN6PW/images.jpg",
-      "estate_title": "Luxurious Downtown Apartment",
-      "id": "RES002",
-      "segment_name": "Residential",
-      "description": "Indulge in urban living at its finest with this upscale apartment boasting stunning city views and premium amenities. Located in the heart of the downtown district, this apartment offers convenience and sophistication. The spacious floor plan includes two bedrooms, two bathrooms, and a modern kitchen with high-end appliances. Building amenities include a rooftop pool, fitness center, and concierge services. Experience the epitome of luxury living!",
-      "price": 5000,
-      "status": "rent",
-      "area": "1200 sq ft",
-      "location": "Downtown district, Metropolis City, USA",
-      "facilities": ["Living room", "Swimming pool", "Gym"],
-      "outdoor_details": {
-        "balcony": null,
-        "terrace": null,
-        "rooftop_deck": "Rooftop pool and deck with stunning city views",
-        "courtyard": null
-      },
-      "interior_details": {
-        "hardwood_flooring": "Hardwood flooring throughout the apartment",
-        "granite_countertops": "Granite countertops in the kitchen",
-        "stainless_steel_appliances": "High-end stainless steel appliances",
-        "walk_in_closets": null
-      }
-    },
-    {
-      "image": "https://i.ibb.co/xm48x1v/4983135-1-1.jpg",
-      "estate_title": "Spacious Family Townhouse",
-      "id": "RES003",
-      "segment_name": "Residential",
-      "description": "This expansive townhouse is ideal for families, offering multiple bedrooms, a private garage, and a community playground. Located in a family-friendly neighborhood, this townhouse features four bedrooms, three bathrooms, and a two-car garage. The open-concept living area is perfect for entertaining, while the backyard provides space for outdoor activities. Enjoy the convenience of nearby schools, parks, and shopping centers.",
-      "price": 450000,
-      "status": "sale",
-      "area": "2200 sq ft",
-      "location": "Family-friendly neighborhood, Suburbia, USA",
-      "facilities": ["Living room", "Kitchen", "Garage", "Playground"],
-      "outdoor_details": {
-        "backyard": "Backyard for outdoor activities",
-        "patio": "Patio for outdoor dining and relaxation",
-        "garden": null,
-        "deck": null
-      },
-      "interior_details": {
-        "fireplace": null,
-        "hardwood_flooring": "Hardwood flooring in living areas",
-        "granite_countertops": null,
-        "vaulted_ceilings": null
-      }
-    },
-    {
-      "image": "https://i.ibb.co/PzB20hM/pic-ocean-view-modern-condo-luxury-amenities-cancun-7.jpg",
-      "estate_title": "Modern Condo with Ocean Views",
-      "id": "RES004",
-      "segment_name": "Residential",
-      "description": "Enjoy breathtaking ocean views from this contemporary condo featuring sleek design and resort-style amenities. This two-bedroom, two-bathroom condo offers a sophisticated living space with floor-to-ceiling windows overlooking the ocean. The kitchen is equipped with stainless steel appliances and granite countertops. Building amenities include a pool, fitness center, and 24-hour concierge. Experience coastal living at its finest!",
-      "price": 750000,
-      "status": "sale",
-      "area": "1500 sq ft",
-      "location": "Coastal area, Seaside Town, USA",
-      "facilities": ["Living room", "Kitchen", "Balcony", "Gym", "Pool"],
-      "outdoor_details": {
-        "balcony": "Balcony with ocean views",
-        "terrace": null,
-        "rooftop_deck": null,
-        "courtyard": null
-      },
-      "interior_details": {
-        "hardwood_flooring": "Hardwood flooring throughout the condo",
-        "granite_countertops": "Granite countertops in the kitchen",
-        "vaulted_ceilings": null,
-        "walk_in_closets": null
-      }
-    },
-    {
-      "image":"https://i.ibb.co/qRF6dtn/quaint-cabin-in-the-woods-ranch-land-cabin-hill-country.webp",
-      "estate_title": "Quaint Cottage in the Woods",
-      "id": "RES005",
-      "segment_name": "Residential",
-      "description": "Escape to nature in this charming cottage nestled amidst lush forests, offering tranquility and serenity. This two-bedroom, one-bathroom cottage features a cozy living room with a fireplace, a fully equipped kitchen, and a deck overlooking the woods. The surrounding area offers hiking trails, wildlife viewing, and opportunities for outdoor recreation. Experience the beauty of nature in your own private retreat!",
-      "price": 300000,
-      "status": "sale",
-      "area": "1000 sq ft",
-      "location": "Rural area, Woodland Retreat, USA",
-      "facilities": ["Living room", "Kitchen", "Fireplace", "Garden"],
-      "outdoor_details": {
-        "backyard": null,
-        "patio": null,
-        "garden": "Garden with lush landscaping",
-        "deck": "Deck overlooking the woods"
-      },
-      "interior_details": {
-        "fireplace": "Cozy fireplace in the living room",
-        "hardwood_flooring": null,
-        "granite_countertops": null,
-        "vaulted_ceilings": null
-      }
-    },
-    {
-      "image": "https://i.ibb.co/Vt9bCW0/residential-780x470.jpg",
-      "estate_title": "Family-Friendly Suburban Home",
-      "id": "RES006",
-      "segment_name": "Residential",
-      "description": "This suburban home is perfect for families, with spacious rooms, a large backyard, and proximity to schools and parks. Located in a quiet suburban neighborhood, this home features four bedrooms, two and a half bathrooms, and a two-car garage. The open-concept living area is great for gatherings, while the backyard offers space for outdoor play. Enjoy easy access to schools, parks, and shopping centers.",
-      "price": 400000,
-      "status": "sale",
-      "area": "2500 sq ft",
-      "location": "Suburban neighborhood, Quiet Suburb, USA",
-      "facilities": ["Living room", "Kitchen", "Backyard", "Garage"],
-      "outdoor_details": {
-        "backyard": "Spacious backyard for outdoor activities",
-        "patio": "Patio for outdoor dining and relaxation",
-        "garden": null,
-        "deck": null
-      },
-      "interior_details": {
-        "fireplace": null,
-        "hardwood_flooring": "Hardwood flooring in living areas",
-        "granite_countertops": null,
-        "vaulted_ceilings": null
-      }
-    },
-    {
-      "image": "https://i.ibb.co/84qkDCx/Urban-Loft-Residence-James-Thomas-Interiors-01-1-Kindesign.jpg",
-      "estate_title": "Urban Loft in Trendy Neighborhood",
-      "id": "RES007",
-      "segment_name": "Residential",
-      "description": "Experience loft living in this stylish urban apartment, located in a vibrant neighborhood with trendy cafes and boutiques. This spacious loft features an open floor plan with high ceilings, exposed brick walls, and industrial accents. The kitchen is equipped with modern appliances and a breakfast bar. Enjoy the convenience of nearby restaurants, shops, and entertainment venues.",
-      "price": 6000,
-      "status": "rent",
-      "area": "1800 sq ft",
-      "location": "City center, Hip District, USA",
-      "facilities": ["Open floor plan", "Modern kitchen", "Exposed brick walls"],
-      "outdoor_details": {
-        "balcony": null,
-        "terrace": "Terrace with city views",
-        "rooftop_deck": null,
-        "courtyard": null
-      },
-      "interior_details": {
-        "hardwood_flooring": "Hardwood flooring throughout the apartment",
-        "granite_countertops": "Granite countertops in the kitchen",
-        "stainless_steel_appliances": "High-end stainless steel appliances",
-        "vaulted_ceilings": "High ceilings with exposed beams"
-      }
-    },
-    {
-      "image": "https://i.ibb.co/M9Wnfk4/lake-house-modern-rustic-wood-stone-exterior-08mcrai9ar-Z8tk0-Ri-Pz-HQy-2000-ec37332a39cc4dc9a82c023.jpg",
-      "estate_title": "Lakefront Retreat",
-      "id": "RES008",
-      "segment_name": "Residential",
-      "description": "Relax and unwind in this serene lakefront retreat, offering panoramic views and a private dock for boating and fishing. This three-bedroom, two-bathroom home features a spacious living room with a fireplace, a fully equipped kitchen, and a sunroom overlooking the lake. The outdoor deck and patio are perfect for enjoying the views and entertaining guests. Experience lakeside living at its best!",
-      "price": 550000,
-      "status": "sale",
-      "area": "2000 sq ft",
-      "location": "Lakefront property, Tranquil Lakeside, USA",
-      "facilities": ["Living room", "Kitchen", "Deck", "Dock"],
-      "outdoor_details": {
-        "backyard": null,
-        "patio": "Patio with lake views",
-        "garden": null,
-        "deck": "Deck overlooking the lake"
-      },
-      "interior_details": {
-        "fireplace": "Cozy fireplace in the living room",
-        "hardwood_flooring": "Hardwood flooring throughout the home",
-        "granite_countertops": "Granite countertops in the kitchen",
-        "vaulted_ceilings": null
-      }
-    }
-]
-    
+  {
+  "image": "https://i.ibb.co/R0mVz16/download-1.jpg",
+  "estate_title": "Cozy Single-Family Home",
+  "id": "RES001",
+  "segment_name": "Residential",
+  "property_type": "House",
+  "description": "This charming single-family home offers comfortable living spaces and modern amenities. Perfect for a growing family. Situated in a suburban neighborhood, this home features a spacious backyard, ideal for outdoor gatherings and play. With three bedrooms, two bathrooms, and an open-concept living area, this residence provides ample space for relaxation and entertainment. Don't miss out on the opportunity to make this your dream home!",
+  "price": 350000,
+  "status": "sale",
+  "area": "1800 sq ft",
+  "location": " Suburban neighborhood, Los Angeles, USA",
+  "facilities": ["Living room", "Kitchen", "Backyard"],
+  "outdoor_details": {
+  "backyard": "Spacious backyard for outdoor gatherings and play",
+  "patio": null,
+  "garden": null,
+  "deck": null
+  },
+  "interior_details": {
+  "fireplace": null,
+  "hardwood_flooring": null,
+  "granite_countertops": null,
+  "vaulted_ceilings": null
+  }
+  },
+  {
+  "image": "https://i.ibb.co/PgVN6PW/images.jpg",
+  "estate_title": "Luxurious Downtown Apartment",
+  "id": "RES002",
+  "segment_name": "Residential",
+  "property_type": "Apartment",
+  "description": "Indulge in urban living at its finest with this upscale apartment boasting stunning city views and premium amenities. Located in the heart of the downtown district, this apartment offers convenience and sophistication. The spacious floor plan includes two bedrooms, two bathrooms, and a modern kitchen with high-end appliances. Building amenities include a rooftop pool, fitness center, and concierge services. Experience the epitome of luxury living!",
+  "price": 5000,
+  "status": "rent",
+  "area": "1200 sq ft",
+  "location": "Downtown district, New York City, USA",
+  "facilities": ["Living room", "Swimming pool", "Gym"],
+  "outdoor_details": {
+  "balcony": null,
+  "terrace": null,
+  "rooftop_deck": "Rooftop pool and deck with stunning city views",
+  "courtyard": null
+  },
+  "interior_details": {
+  "hardwood_flooring": "Hardwood flooring throughout the apartment",
+  "granite_countertops": "Granite countertops in the kitchen",
+  "stainless_steel_appliances": "High-end stainless steel appliances",
+  "walk_in_closets": null
+  }
+  },
+  {
+  "image": "https://i.ibb.co/xm48x1v/4983135-1-1.jpg",
+  "estate_title": "Spacious Family Townhouse",
+  "id": "RES003",
+  "segment_name": "Residential",
+  "property_type": "Townhouse",
+  "description": "This expansive townhouse is ideal for families, offering multiple bedrooms, a private garage, and a community playground. Located in a family-friendly neighborhood, this townhouse features four bedrooms, three bathrooms, and a two-car garage. The open-concept living area is perfect for entertaining, while the backyard provides space for outdoor activities. Enjoy the convenience of nearby schools, parks, and shopping centers.",
+  "price": 450000,
+  "status": "sale",
+  "area": "2200 sq ft",
+  "location": " Family-friendly neighborhood, London, UK",
+  "facilities": ["Living room", "Kitchen", "Garage", "Playground"],
+  "outdoor_details": {
+  "backyard": "Backyard for outdoor activities",
+  "patio": "Patio for outdoor dining and relaxation",
+  "garden": null,
+  "deck": null
+  },
+  "interior_details": {
+  "fireplace": null,
+  "hardwood_flooring": "Hardwood flooring in living areas",
+  "granite_countertops": null,
+  "vaulted_ceilings": null
+  }
+  },
+  {
+  "image": "https://i.ibb.co/PzB20hM/pic-ocean-view-modern-condo-luxury-amenities-cancun-7.jpg",
+  "estate_title": "Modern Condo with Ocean Views",
+  "id": "RES004",
+  "segment_name": "Residential",
+  "property_type": "Condo",
+  "description": "Enjoy breathtaking ocean views from this contemporary condo featuring sleek design and resort-style amenities. This two-bedroom, two-bathroom condo offers a sophisticated living space with floor-to-ceiling windows overlooking the ocean. The kitchen is equipped with stainless steel appliances and granite countertops. Building amenities include a pool, fitness center, and 24-hour concierge. Experience coastal living at its finest!",
+  "price": 750000,
+  "status": "sale",
+  "area": "1500 sq ft",
+  "location": "Coastal area, Sydney, Australia",
+  "facilities": ["Living room", "Kitchen", "Balcony", "Gym", "Pool"],
+  "outdoor_details": {
+  "balcony": "Balcony with ocean views",
+  "terrace": null,
+  "rooftop_deck": null,
+  "courtyard": null
+  },
+  "interior_details": {
+  "hardwood_flooring": "Hardwood flooring throughout the condo",
+  "granite_countertops": "Granite countertops in the kitchen",
+  "vaulted_ceilings": null,
+  "walk_in_closets": null
+  }
+  },
+  {
+  "image":"https://i.ibb.co/qRF6dtn/quaint-cabin-in-the-woods-ranch-land-cabin-hill-country.webp",
+  "estate_title": "Quaint Cottage in the Woods",
+  "id": "RES005",
+  "segment_name": "Residential",
+  "property_type": "Cottage",
+  "description": "Escape to nature in this charming cottage nestled amidst lush forests, offering tranquility and serenity. This two-bedroom, one-bathroom cottage features a cozy living room with a fireplace, a fully equipped kitchen, and a deck overlooking the woods. The surrounding area offers hiking trails, wildlife viewing, and opportunities for outdoor recreation. Experience the beauty of nature in your own private retreat!",
+  "price": 300000,
+  "status": "sale",
+  "area": "1000 sq ft",
+  "location": "Rural area, Black Forest, Germany",
+  "facilities": ["Living room", "Kitchen", "Fireplace", "Garden"],
+  "outdoor_details": {
+  "backyard": null,
+  "patio": null,
+  "garden": "Garden with lush landscaping",
+  "deck": "Deck overlooking the woods"
+  },
+  "interior_details": {
+  "fireplace": "Cozy fireplace in the living room",
+  "hardwood_flooring": null,
+  "granite_countertops": null,
+  "vaulted_ceilings": null
+  }
+  },
+  {
+  "image": "https://i.ibb.co/Vt9bCW0/residential-780x470.jpg",
+  "estate_title": "Family-Friendly Suburban Home",
+  "id": "RES006",
+  "segment_name": "Residential",
+  "property_type": "House",
+  "description": "This suburban home is perfect for families, with spacious rooms, a large backyard, and proximity to schools and parks. Located in a quiet suburban neighborhood, this home features four bedrooms, two and a half bathrooms, and a two-car garage. The open-concept living area is great for gatherings, while the backyard offers space for outdoor play. Enjoy easy access to schools, parks, and shopping centers.",
+  "price": 400000,
+  "status": "sale",
+  "area": "2500 sq ft",
+  "location": "Suburban neighborhood, Toronto, Canada",
+  "facilities": ["Living room", "Kitchen", "Backyard", "Garage"],
+  "outdoor_details": {
+  "backyard": "Spacious backyard for outdoor activities",
+  "patio": "Patio for outdoor dining and relaxation",
+  "garden": null,
+  "deck": null
+  },
+  "interior_details": {
+  "fireplace": null,
+  "hardwood_flooring": "Hardwood flooring in living areas",
+  "granite_countertops": null,
+  "vaulted_ceilings": null
+  }
+  },
+  {
+  "image": "https://i.ibb.co/84qkDCx/Urban-Loft-Residence-James-Thomas-Interiors-01-1-Kindesign.jpg",
+  "estate_title": "Urban Loft in Trendy Neighborhood",
+  "id": "RES007",
+  "segment_name": "Residential",
+  "property_type": "Apartment",
+  "description": "Experience loft living in this stylish urban apartment, located in a vibrant neighborhood with trendy cafes and boutiques. This spacious loft features an open floor plan with high ceilings, exposed brick walls, and industrial accents. The kitchen is equipped with modern appliances and a breakfast bar. Enjoy the convenience of nearby restaurants, shops, and entertainment venues.",
+  "price": 6000,
+  "status": "rent",
+  "area": "1800 sq ft",
+  "location": "City center, Tokyo, Japan",
+  "facilities": ["Open floor plan", "Modern kitchen", "Exposed brick walls"],
+  "outdoor_details": {
+  "balcony": null,
+  "terrace": "Terrace with city views",
+  "rooftop_deck": null,
+  "courtyard": null
+  },
+  "interior_details": {
+  "hardwood_flooring": "Hardwood flooring throughout the apartment",
+  "granite_countertops": "Granite countertops in the kitchen",
+  "stainless_steel_appliances": "High-end stainless steel appliances",
+  "vaulted_ceilings": "High ceilings with exposed beams"
+  }
+  },
+  {
+  "image": "https://i.ibb.co/M9Wnfk4/lake-house-modern-rustic-wood-stone-exterior-08mcrai9ar-Z8tk0-Ri-Pz-HQy-2000-ec37332a39cc4dc9a82c023.jpg",
+  "estate_title": "Lakefront Retreat",
+  "id": "RES008",
+  "segment_name": "Residential",
+  "property_type": "House",
+  "description": "Relax and unwind in this serene lakefront retreat, offering panoramic views and a private dock for boating and fishing. This three-bedroom, two-bathroom home features a spacious living room with a fireplace, a fully equipped kitchen, and a sunroom overlooking the lake. The outdoor deck and patio are perfect for enjoying the views and entertaining guests. Experience lakeside living at its best!",
+  "price": 550000,
+  "status": "sale",
+  "area": "2000 sq ft",
+  "location": "Lakefront property, Lake Como, Italy",
+  "facilities": ["Living room", "Kitchen", "Deck", "Dock"],
+  "outdoor_details": {
+  "backyard": null,
+  "patio": "Patio with lake views",
+  "garden": null,
+  "deck": "Deck overlooking the lake"
+  },
+  "interior_details": {
+  "fireplace": "Cozy fireplace in the living room",
+  "hardwood_flooring": "Hardwood flooring throughout the home",
+  "granite_countertops": "Granite countertops in the kitchen",
+  "vaulted_ceilings": null
+  }
+  }
+  ]  

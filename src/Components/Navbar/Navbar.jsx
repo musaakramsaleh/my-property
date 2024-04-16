@@ -10,7 +10,7 @@ const Navbar = () => {
   </>
   
     return (
-        <div className='max-w-[1440px] mx-auto bg-slate-500'>
+        <div className='max-w-[1440px] mx-auto bg-[#990000] '>
         <div className="navbar  p-3">
   <div className="navbar-start">
     <div className="dropdown">
@@ -21,7 +21,7 @@ const Navbar = () => {
         {list}
       </ul>
     </div>
-    <Link to='/' className="btn btn-ghost text-3xl font-bold text-black"><span className='text-yellow-300'>My</span>Property</Link>
+    <Link to='/' className="btn btn-ghost text-3xl font-bold text-white"><span className='text-yellow-300'>My</span>Property</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
