@@ -14,9 +14,9 @@ const SingleProperty = ({ proper }) => {
                 <h2 className='text-xl text-black font-semibold'>{proper.estate_title}</h2>
                 <p>Property Type: {proper.property_type}</p>
                 <p>For {proper.status}</p>
-                <p className='flex justify-start items-center'><CiLocationOn />{proper.location}</p>
                 {proper.status === 'sale' ? <p>${proper.price}</p> : <p>${proper.price}/month</p>}
-                <button className=''>View More</button>
+                <p className='flex justify-start items-center'><CiLocationOn />{proper.location}</p>
+                <button className='w-full p-2 mt-4 bg-[#990000] text-white rounded-xl font-semibold'>View More</button>
             </div>
         </div>
     );

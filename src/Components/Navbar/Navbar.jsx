@@ -3,10 +3,10 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
 
   const list = <>
-       <li><NavLink to='/'>Home</NavLink></li>
-       <li><NavLink to='/About'>About</NavLink></li>
-       <li><NavLink to= '/Register'>Update Profile</NavLink></li>
-       <li><NavLink to= '/Policy'>Policy</NavLink></li>
+       <li><NavLink to='/'  className={({ isActive}) => isActive ? "text-[#990000] bg-white text-xl font-normal border border-white border-solid" : "text-xl text-white font-normal"}>Home</NavLink></li>
+       <li><NavLink to='/About'  className={({ isActive}) => isActive ? "text-[#990000] bg-white text-xl font-normal border border-white border-solid" : "text-xl text-white font-normal"}>About</NavLink></li>
+       <li><NavLink to= '/Register'  className={({ isActive}) => isActive ? "text-[#990000] bg-white text-xl font-normal border border-white border-solid" : "text-xl text-white font-normal"}>Update Profile</NavLink></li>
+       <li><NavLink to= '/Policy'  className={({ isActive}) => isActive ? "text-[#990000] bg-white text-xl font-normal border border-white border-solid" : "text-xl text-white font-normal"}>Policy</NavLink></li>
   </>
   
     return (
