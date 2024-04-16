@@ -1,9 +1,9 @@
 import React from 'react';
 import { CiLocationOn } from 'react-icons/ci';
 import "animate.css"
+import { Link } from 'react-router-dom';
 const SingleProperty = ({ proper }) => {
     const sealColor = proper.status === 'sale' ? 'blue' : 'red';
-    console.log(proper);
     return (
         <div className='relative max-w-[380px] shadow-lg overflow-hidden rounded-xl animate__animated  animate__zoomIn animate__delay-2s'>
             <img className='w-full h-[250px] object-cover transform transition-transform duration-200 hover:scale-110' src={proper.image} alt="" />
@@ -16,7 +16,7 @@ const SingleProperty = ({ proper }) => {
                 <p>For {proper.status}</p>
                 {proper.status === 'sale' ? <p>${proper.price}</p> : <p>${proper.price}/month</p>}
                 <p className='flex justify-start items-center'><CiLocationOn />{proper.location}</p>
-                <button className='w-full p-2 mt-4 bg-[#990000] text-white rounded-xl font-semibold'>View More</button>
+                <Link to={`/PropertyDetails/${proper.id}`}><button className='w-full p-2 mt-4 bg-[#990000] text-white rounded-xl font-semibold'>View Property</button></Link>
             </div>
         </div>
     );
