@@ -1,16 +1,16 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
 
   const list = <>
        <li><NavLink to='/'>Home</NavLink></li>
        <li><NavLink to='/About'>About</NavLink></li>
-       <li><NavLink to= '/Register'>Register</NavLink></li>
+       <li><NavLink to= '/Register'>Update Profile</NavLink></li>
        <li><NavLink to= '/Policy'>Policy</NavLink></li>
   </>
   
     return (
-        <div>
+        <div className='max-w-[1440px] mx-auto bg-slate-500'>
         <div className="navbar  p-3">
   <div className="navbar-start">
     <div className="dropdown">
@@ -21,7 +21,7 @@ const Navbar = () => {
         {list}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <Link to='/' className="btn btn-ghost text-3xl font-bold text-black"><span className='text-yellow-300'>My</span>Property</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

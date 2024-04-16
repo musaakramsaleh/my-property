@@ -5,7 +5,7 @@ import 'swiper/css/bundle';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 const Slider = () => {
     return (
-        <div>
+        <div className=''>
             <Swiper 
             navigation={true} 
             modules={[Navigation,Autoplay,Pagination]}
@@ -14,28 +14,34 @@ const Slider = () => {
             }}
             loop={true}
             autoplay={{
-                delay: 2500,
+                delay: 3500,
                 disableOnInteraction: false,
               }}
             >
                 <SwiperSlide>
-                <div className="z-0 relative rounded-xl  text-red-800 font-bold text-4xl p-96 bg-cover bg-center flex justify-center items-center" style={{backgroundImage: `url(bg-2.jpg)`}}>
-                <div>
-                <h1 className='z-20 relative max-w-[1/2]'>Experience</h1>
+                <div className="  text-white font-bold text-4xl  bg-cover bg-center " style={{backgroundImage: `url(bg-2.jpg)`}}>
+                <div className='p-72'>
+                <h1 className='relative text-[50px] font-bold z-20'>Make your dream <br /><br />of having a <br /><br />home with <span className='text-red-700 bg-yellow-600 rounded-lg'>MyProperty</span></h1>
+                
                 </div>
-                <div className='absolute rounded-xl top-0 left-0 right-0 bottom-0 content-none z-10 bg-slate-500 opacity-40'></div>
+                
             </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="z-0 rounded-xl  text-red-800 font-bold text-4xl p-96  bg-cover bg-center flex justify-center items-center" style={{backgroundImage: `url(bg-1.jpg)`}}>
-                <h1 className='z-20 relative'>Slide 2</h1>
-                <div className='absolute rounded-xl top-0 left-0 right-0 bottom-0 content-none z-10 bg-slate-500 opacity-20'></div>
+                <div className="relative  text-white font-bold text-4xl   bg-cover bg-center " style={{backgroundImage: `url(bg-1.jpg)`}}>
+                <div className='p-72 '>
+                <h1 className='relative z-20 text-[50px] font-bold'>See our Exclusive<br /><br />apartments to <br /><br />buy or rent property</h1>
+                <div className='absolute top-0 left-0 right-0 bottom-0  content-none bg-black opacity-45 z-10'></div>
+                </div>
+              
             </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                <div className="z-0 rounded-xl  text-red-800 font-bold text-4xl p-96  bg-cover bg-center flex justify-center items-center" style={{backgroundImage: `url(bg-3.jpg)`}}>
-                <h1 className='z-20 relative'>Slide 3</h1>
-                <div className='absolute rounded-xl top-0 left-0 right-0 bottom-0 content-none z-10 bg-slate-500 opacity-20'></div>
+                <div className="relative z-0   text-white font-bold text-4xl   bg-cover bg-center " style={{backgroundImage: `url(bg-3.jpg)`}}>
+                <div className='p-72 '>
+                <h1 className='relative z-20 text-[50px] font-bold'>You can get your<br /><br /> property in suitable location<br /><br /> on a reasonable deal</h1>
+                 <div className='absolute top-0 left-0 right-0 bottom-0  content-none bg-black opacity-45 z-10'></div>
+                </div>
             </div>
                 </SwiperSlide>
             </Swiper>
