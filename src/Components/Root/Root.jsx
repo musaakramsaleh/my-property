@@ -3,19 +3,14 @@ import Slider from '../Slider/Slider';
 import Navbar from '../Navbar/Navbar';
 import { Outlet, useLocation } from 'react-router-dom';
 import Footer from '../Footer/Footer';
+import { Helmet } from 'react-helmet-async';
 
 const Root = () => {
-    const loc = useLocation()
-    useEffect(()=>{
-        if(loc.pathname === '/'){
-            document.title == `myProperty - Home`
-        }
-        else{
-            document.title = ` myProperty ${loc.pathname.replace('/','- ')}`
-        }
-    },[loc.pathname])
     return (
         <div className=''>
+            <Helmet>
+                <title>myProperty- Home</title>
+            </Helmet>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

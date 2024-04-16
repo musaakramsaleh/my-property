@@ -2,6 +2,9 @@
 [
   {
   "image": "https://i.ibb.co/R0mVz16/download-1.jpg",
+  "image_2":"https://i.ibb.co/z8DnN7D/download-2.jpg",
+  "image_3":"https://i.ibb.co/7zNQHx6/download-3.jpg",
+  "image_4":"https://i.ibb.co/sbdyX2z/reserved-cozy-single-family-home-to-reform.jpg",
   "estate_title": "Cozy Single-Family Home",
   "id": "RES001",
   "segment_name": "Residential",
@@ -27,6 +30,9 @@
   },
   {
   "image": "https://i.ibb.co/PgVN6PW/images.jpg",
+  "image_2":"https://i.ibb.co/rtTbBTw/333784634.jpg",
+  "image_3":"https://i.ibb.co/HnnPvqN/AD-Building-Bilotta-Kitchens-Cabinents-Larry-Silverstein-30-park-pl.jpg",
+  "image_4":"https://i.ibb.co/ynZJp7X/d86bcd46-ea4a-43d1-86a9-3fd431c4da29.webp",
   "estate_title": "Luxurious Downtown Apartment",
   "id": "RES002",
   "segment_name": "Residential",
@@ -52,6 +58,9 @@
   },
   {
   "image": "https://i.ibb.co/xm48x1v/4983135-1-1.jpg",
+  "image_2":"https://i.ibb.co/qrZnsTs/house-tours-lu-chan-new-york-037649.webp",
+  "image_3":"https://i.ibb.co/5TmM5vW/SPR-modern-kitchen-ideas-7110474-hero-e78cb87316b847fb87fe807ffd4a0921.jpg",
+  "image_4":"https://i.ibb.co/C6fzFhC/d6984890-6078-45a4-82bf-b92e181fb499.webp",
   "estate_title": "Spacious Family Townhouse",
   "id": "RES003",
   "segment_name": "Residential",
@@ -77,6 +86,9 @@
   },
   {
   "image": "https://i.ibb.co/PzB20hM/pic-ocean-view-modern-condo-luxury-amenities-cancun-7.jpg",
+  "image_2":"https://i.ibb.co/z8DnN7D/download-2.jpg",
+  "image_3":"https://i.ibb.co/7zNQHx6/download-3.jpg",
+  "image_4":"https://i.ibb.co/sbdyX2z/reserved-cozy-single-family-home-to-reform.jpg",
   "estate_title": "Modern Condo with Ocean Views",
   "id": "RES004",
   "segment_name": "Residential",
@@ -102,6 +114,9 @@
   },
   {
   "image":"https://i.ibb.co/qRF6dtn/quaint-cabin-in-the-woods-ranch-land-cabin-hill-country.webp",
+  "image_2":"https://i.ibb.co/z8DnN7D/download-2.jpg",
+  "image_3":"https://i.ibb.co/7zNQHx6/download-3.jpg",
+  "image_4":"https://i.ibb.co/sbdyX2z/reserved-cozy-single-family-home-to-reform.jpg",
   "estate_title": "Quaint Cottage in the Woods",
   "id": "RES005",
   "segment_name": "Residential",
@@ -127,6 +142,9 @@
   },
   {
   "image": "https://i.ibb.co/Vt9bCW0/residential-780x470.jpg",
+  "image_2":"https://i.ibb.co/z8DnN7D/download-2.jpg",
+  "image_3":"https://i.ibb.co/7zNQHx6/download-3.jpg",
+  "image_4":"https://i.ibb.co/sbdyX2z/reserved-cozy-single-family-home-to-reform.jpg",
   "estate_title": "Family-Friendly Suburban Home",
   "id": "RES006",
   "segment_name": "Residential",
@@ -152,6 +170,9 @@
   },
   {
   "image": "https://i.ibb.co/84qkDCx/Urban-Loft-Residence-James-Thomas-Interiors-01-1-Kindesign.jpg",
+  "image_2":"https://i.ibb.co/z8DnN7D/download-2.jpg",
+  "image_3":"https://i.ibb.co/7zNQHx6/download-3.jpg",
+  "image_4":"https://i.ibb.co/sbdyX2z/reserved-cozy-single-family-home-to-reform.jpg",
   "estate_title": "Urban Loft in Trendy Neighborhood",
   "id": "RES007",
   "segment_name": "Residential",
@@ -177,6 +198,9 @@
   },
   {
   "image": "https://i.ibb.co/M9Wnfk4/lake-house-modern-rustic-wood-stone-exterior-08mcrai9ar-Z8tk0-Ri-Pz-HQy-2000-ec37332a39cc4dc9a82c023.jpg",
+  "image_2":"https://i.ibb.co/z8DnN7D/download-2.jpg",
+  "image_3":"https://i.ibb.co/7zNQHx6/download-3.jpg",
+  "image_4":"https://i.ibb.co/sbdyX2z/reserved-cozy-single-family-home-to-reform.jpg",
   "estate_title": "Lakefront Retreat",
   "id": "RES008",
   "segment_name": "Residential",

@@ -36,10 +36,12 @@ const Client = () => {
           depth: 100,
           modifier: 1,
           slideShadows: true,
+          
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
+        loop={true}
       >
         {clients.map((client, index) => (
           <SwiperSlide key={index}>
