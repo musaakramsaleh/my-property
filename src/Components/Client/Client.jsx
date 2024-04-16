@@ -24,7 +24,7 @@ const Client = () => {
 
   return (
     <div className=''>
-      <h2 className='text-black text-center text-4xl mt-4 font-bold border-b-2 border-orange-500 pb-4 mb-4'>See the review of our Clients</h2>
+      <h2 className='text-black text-center text-4xl mt-10 font-bold border-b-2 border-orange-500 pb-4 mb-8'>See the review of our Clients</h2>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

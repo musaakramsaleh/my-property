@@ -33,20 +33,20 @@ const PropertyDetails = () => {
         <SwiperSlide><img className='w-[900px] max-h-[500px]' src={single.image_4} alt="" /></SwiperSlide>
         
       </Swiper>
-            <div className='grid grid-cols-3 items-top'>
+            <div className='grid md:grid-cols-3 grid-cols-1 items-top md:ml-2 md:text-left text-center'>
             <div className='col-span-2'>
                 <div>
-                <h2 className='text-[#990000] text-4xl font-bold mt-4'>{single.estate_title}</h2>
-            <h2 className='text-black font-semibold text-xl mt-2'>{single.description}</h2>
-            <div className='grid grid-cols-2'>
-            <h2>Property Type: {single.property_type}</h2>
-            {single.status === 'sale' ? <p>Price: ${single.price}</p> : <p>Rent: ${single.price}/month</p>}
-            <h2>Size: {single.area}</h2>
+                <h2 className='text-[#990000] text-4xl font-bold mt-4 md:text-left text-center'>{single.estate_title}</h2>
+            <h2 className='text-black font-semibold text-xl mt-2 md:text-left text-center'>{single.description}</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2'>
+            <h2 className='text-xl mt-2'>Property Type: {single.property_type}</h2>
+            {single.status === 'sale' ? <p className='text-xl mt-2'>Price: ${single.price}</p> : <p className='text-xl mt-2'>Rent: ${single.price}/month</p>}
+            <h2 className='text-xl '>Size: {single.area}</h2>
             </div>
-            <h2>Facilities:</h2>
+            <h2 className='text-xl mt-2 text-black font-bold'>Facilities:</h2>
             <ul>
   {single.facilities && single.facilities.map((facility, index) => (
-    <li key={index}>{facility}</li>
+    <li className='text-xl ' key={index}>{facility}</li>
   ))}
 </ul> 
                 </div>
@@ -54,7 +54,7 @@ const PropertyDetails = () => {
           <div>
           <h2 className='text-2xl font-bold text-black mb-2'>See other properties</h2>
 
-<div className=''>
+<div className='mx-auto ml-10 md:ml-0 md:mr-2'>
 <Swiper
         grabCursor={true}
         effect={'creative'}
