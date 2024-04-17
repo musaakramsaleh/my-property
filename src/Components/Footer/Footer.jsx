@@ -4,10 +4,11 @@ import { CiFacebook, CiInstagram, CiLocationOn, CiTwitter } from "react-icons/ci
 import { FaLocationArrow, FaPhoneAlt } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import useData from '../../Hooks/useData';
+import "animate.css"
 const Footer = () => {
     const {property} = useData()
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 mt-14 animate__animated animate__zoomIn animate__delay-3s'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 mt-14'>
             <div className='bg-black flex flex-col justify-center items-center text-center p-12'>
             <Link to='/' className="btn btn-ghost text-3xl font-bold text-white"><span className='text-yellow-300'>My</span>Property</Link>
             <p className='text-white max-w-[300px]'>Discover your dream home today. Explore listings, find your perfect space, and make your real estate dreams a reality</p>

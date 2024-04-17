@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const SingleProperty = ({ proper }) => {
     const sealColor = proper.status === 'sale' ? 'blue' : 'red';
     return (
-        <div className='relative max-w-[380px] shadow-lg overflow-hidden rounded-xl animate__animated  animate__zoomIn animate__delay-2s'>
+        <div className='relative max-w-[380px] shadow-lg overflow-hidden rounded-xl animate__animated  animate__zoomIn animate__delay-1s'>
             <img className='w-full h-[250px] object-cover transform transition-transform duration-200 hover:scale-110' src={proper.image} alt="" />
             <div className={`absolute top-0 right-0 rounded-full bg-[#990000] font-bold text-white p-2 m-2`}>
                 {proper.status === 'sale' ? 'FOR SALE' : 'FOR RENT'}

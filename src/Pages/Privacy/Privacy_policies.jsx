@@ -1,8 +1,10 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const Privacy_policies = () => {
     return (
-        <div className='max-w-[1440px] mx-auto mt-10 md:mb-28'>
+        <div className='max-w-[1440px] mx-auto mt-10 md:mb-36'>
+            <Helmet><title>myProperty-Privacy</title></Helmet>
            <h2 className='text-center  text-3xl font-bold text-[#990000]'>Privacy Policy</h2>
            <p className='mt-4 text-center md:text-left '>At myProperty, we take your privacy seriously. This Privacy Policy outlines the types of personal information we receive and collect when you use our website, how we use and safeguard that information, and the choices you have regarding your data.</p>
            <h2 className='text-xl mt-4 text-center md:text-left'>Collection of Information:</h2>

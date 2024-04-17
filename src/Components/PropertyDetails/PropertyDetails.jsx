@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet-async';
 import 'swiper/css/effect-creative';
 import { EffectCreative } from 'swiper/modules';
 import UseAuth from '../../Hooks/UseAuth';
+import "animate.css"
 const PropertyDetails = () => {
     const [single, setSingle] = useState({});
     const { property } = useData();
@@ -35,7 +36,7 @@ const PropertyDetails = () => {
       </Swiper>
       <span className='text-[#990000] font-semibold'>Swipe to see more</span>
             <div className='grid md:grid-cols-3 grid-cols-1 items-top md:ml-2 md:text-left text-center'>
-            <div className='col-span-2'>
+            <div className='col-span-2 animate__animated animate__backInDown'>
                 <div>
                 <h2 className='text-[#990000] text-4xl font-bold mt-4 md:text-left text-center'>{single.estate_title}</h2>
             <h2 className='text-black font-semibold text-xl mt-2 md:text-left text-center'>{single.description}</h2>
@@ -78,6 +79,7 @@ const PropertyDetails = () => {
      <div className='p-2'>
      <p>{proper.estate_title}</p>
      <p>{proper.property_type}</p>
+     <p>{proper.status}</p>
      {proper.status === 'sale' ? <p>Price: ${single.price}</p> : <p>Rent: ${proper.price}/month</p>}
       <Link to={`/PropertyDetails/${proper.id}`}><button  className=' p-2 mt-4 bg-[#990000] text-white rounded-xl font-semibold'>View Property</button></Link>
      </div>

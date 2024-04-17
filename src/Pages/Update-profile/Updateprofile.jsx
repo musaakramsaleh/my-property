@@ -14,7 +14,7 @@ const Updateprofile = () => {
           }
     )}
     return (
-        <div className='max-w-[1440px] lg:mx-auto pb-[132px] text-black text-2xl'>
+        <div className='max-w-[1440px] lg:mx-auto pb-[132px] text-black text-2xl animate__animated animate__backInDown'>
             <Helmet><title>myProperty- update Profile</title></Helmet>
             <div className="avatar">
   <div className="w-64 mt-10 rounded-xl ">
