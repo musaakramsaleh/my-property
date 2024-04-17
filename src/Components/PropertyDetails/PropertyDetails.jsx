@@ -7,9 +7,11 @@ import 'swiper/css/effect-cards';
 import { Helmet } from 'react-helmet-async';
 import 'swiper/css/effect-creative';
 import { EffectCreative } from 'swiper/modules';
+import UseAuth from '../../Hooks/UseAuth';
 const PropertyDetails = () => {
     const [single, setSingle] = useState({});
     const { property } = useData();
+    const {user,loading} =UseAuth()
     const { id } = useParams(); // Destructure the id parameter from useParams
     useEffect(() => {
         // Find the property with the matching id
@@ -19,8 +21,6 @@ const PropertyDetails = () => {
         }
     }, [property, id]);
      const hexa = property.filter(item=>item.id !== id)
-     console.log(hexa)
-    console.log(single);
     return (
         <div className='max-w-[1440px] mx-auto mt-5'>
             <Helmet><title>Property details- {id}</title></Helmet>
@@ -33,6 +33,7 @@ const PropertyDetails = () => {
         <SwiperSlide><img className='w-[900px] max-h-[500px]' src={single.image_4} alt="" /></SwiperSlide>
         
       </Swiper>
+      <span className='text-[#990000] font-semibold'>Swipe to see more</span>
             <div className='grid md:grid-cols-3 grid-cols-1 items-top md:ml-2 md:text-left text-center'>
             <div className='col-span-2'>
                 <div>
@@ -78,11 +79,12 @@ const PropertyDetails = () => {
      <p>{proper.estate_title}</p>
      <p>{proper.property_type}</p>
      {proper.status === 'sale' ? <p>Price: ${single.price}</p> : <p>Rent: ${proper.price}/month</p>}
-     <Link to={`/PropertyDetails/${proper.id}`}><button className=' p-2 mt-4 bg-[#990000] text-white rounded-xl font-semibold'>View Property</button></Link>
+      <Link to={`/PropertyDetails/${proper.id}`}><button  className=' p-2 mt-4 bg-[#990000] text-white rounded-xl font-semibold'>View Property</button></Link>
      </div>
  </div></SwiperSlide>)
  }
 </Swiper>
+<span className='text-[#990000] font-semibold'>Swipe to see more</span>
 </div>
           </div>
             </div>

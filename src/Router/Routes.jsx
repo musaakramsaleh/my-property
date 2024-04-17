@@ -7,6 +7,7 @@ import PropertyDetails from '../Components/PropertyDetails/PropertyDetails';
 import Updateprofile from '../Pages/Update-profile/Updateprofile';
 import Login from '../Components/Login/Login';
 import Register from '../Components/Register/Register';
+import Privateroute from '../Components/Privateroute/Privateroute';
 
 const router = createBrowserRouter([
     {
@@ -20,11 +21,11 @@ const router = createBrowserRouter([
       },
       {
         path:'/updateprofile',
-        element:<Updateprofile></Updateprofile>
+        element:<Privateroute><Updateprofile></Updateprofile></Privateroute>
       },
       {
         path:'/PropertyDetails/:id',
-        element:<PropertyDetails></PropertyDetails>
+        element:<Privateroute><PropertyDetails></PropertyDetails></Privateroute>
       },
       {
         path:'/login',
