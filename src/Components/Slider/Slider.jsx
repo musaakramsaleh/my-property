@@ -21,7 +21,7 @@ const Slider = () => {
                 <SwiperSlide>
                 <div className="  text-white font-bold text-4xl  bg-cover bg-center " style={{backgroundImage: `url(bg-2.jpg)`}}>
                 <div className='lg:p-72 md:p-28 p-12'>
-                <h1 className='relative lg:text-[50px] text-xl font-bold z-20'>Make your dream <br /><br className='hidden lg:block' />of having a <br /><br className='hidden lg:block'  />home with <span className='text-red-700 bg-yellow-600 rounded-lg'>MyProperty</span></h1>
+                <h1 className='relative lg:text-[50px] text-xl font-bold z-20'>Make your dream <br /><br className='hidden lg:block' />of having a <br /><br className='hidden lg:block'  />home with <span className='text-[#990000] bg-yellow-500 rounded-lg'>MyProperty</span></h1>
                 
                 </div>
                 

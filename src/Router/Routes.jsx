@@ -8,6 +8,7 @@ import Updateprofile from '../Pages/Update-profile/Updateprofile';
 import Login from '../Components/Login/Login';
 import Register from '../Components/Register/Register';
 import Privateroute from '../Components/Privateroute/Privateroute';
+import Privacy from '../Pages/Privacy/Privacy_policies';
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:'/Register',
         element:<Register></Register>
+      },
+      {
+        path:'/Policy',
+        element:<Privateroute><Privacy></Privacy></Privateroute>
       }
     ]
     }])
